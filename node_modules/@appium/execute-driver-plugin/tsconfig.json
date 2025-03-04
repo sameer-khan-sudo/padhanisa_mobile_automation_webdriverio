@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "checkJs": true,
+    "esModuleInterop": true
+  },
+  "extends": "@appium/tsconfig/tsconfig.plugin.json",
+  "include": ["lib"]
+}
