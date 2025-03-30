@@ -87,7 +87,7 @@ describe("🎯 15 Mins Class", () => {
         await verifyPremiumPage();
         logSuccess("Premium page verified.");
         await driver.back()
-        await nudgesPage.checkAndDismissFreeTrialNudge();
+        await nudgesPage.checkAndDismissNudge(nudgesPage.startFreeTrialNudge);
 
 
     });
